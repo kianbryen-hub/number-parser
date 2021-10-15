@@ -28,7 +28,7 @@ class NumberParserTest {
 
     @Test
     void testParseUKtoUS() {
-        Assert.assertEquals("+1212233200",
+        Assert.assertEquals("+1312233244",
                 NUMBER_PARSER.parse("1312233244", "+447866866886" ));
     }
 }
