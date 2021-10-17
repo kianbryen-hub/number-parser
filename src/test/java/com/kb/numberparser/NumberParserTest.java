@@ -1,4 +1,4 @@
-package com.kb.numberparser;
+package com.kb.numberparser.service;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;

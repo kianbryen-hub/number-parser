@@ -1,10 +1,10 @@
-package com.kb.numberparser;
+package com.kb.numberparser.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <h1>Number Parser!</h1>
+ * <h1>Number Parser</h1>
  * The Number Parser is a utility class which takes a dialled phone number and transforms it into an international
  * formatted phone number. The Number Parser is constructed through the use of two maps, the first maps country names
  * to country codes and the second maps country names to national trunk prefixes. For example:
