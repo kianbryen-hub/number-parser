@@ -1,4 +1,4 @@
-package com.kb.numberparser.service;
+package com.kb.numberparser;
 
 import java.util.HashMap;
 import java.util.Map;

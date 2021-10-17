@@ -1,4 +1,4 @@
-package com.kb.numberparser.controller;
+package com.kb.numberparser.rest.controller;
 
 import com.kb.numberparser.NumberParser;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.kb.numberparser;
+package com.kb.numberparser.rest.controller;
 
 import com.kb.numberparser.rest.Application;
 import org.junit.Test;

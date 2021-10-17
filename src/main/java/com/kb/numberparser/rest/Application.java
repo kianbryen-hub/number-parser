@@ -1,4 +1,4 @@
-package com.kb.numberparser;
+package com.kb.numberparser.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
