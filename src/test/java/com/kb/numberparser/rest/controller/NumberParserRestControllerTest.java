@@ -24,7 +24,7 @@ public class NumberParserRestControllerTest {
     @Test
     public void testSuccess()
             throws Exception {
-        mvc.perform(get("/parse")
+        mvc.perform(get("/internationalNumber")
                         .param("dialledNumber", "07277822334")
                         .param("userNumber", "+447866866886"))
                 .andExpect(status().isOk())

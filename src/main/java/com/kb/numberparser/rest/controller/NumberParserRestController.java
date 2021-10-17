@@ -20,7 +20,7 @@ public class NumberParserRestController {
     @Autowired
     private NumberParser numberParser;
 
-    @GetMapping("/parse")
+    @GetMapping("/internationalNumber")
     public String parse(@RequestParam String dialledNumber, @RequestParam String userNumber) {
         return numberParser.parse(dialledNumber, userNumber);
     }
