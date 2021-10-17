@@ -59,6 +59,11 @@ public class NumberParser {
      * @return String This returns the international formatted version of the dialled number or null
      */
     public String parse(String dialledNumber, String userNumber) {
+        // Null check parameters
+        if (dialledNumber == null || userNumber == null) {
+            return null;
+        }
+
         // If the number starts with a + then this is already in international format and does not need transformation
         if (dialledNumber.charAt(0) == '+') {
             return dialledNumber;

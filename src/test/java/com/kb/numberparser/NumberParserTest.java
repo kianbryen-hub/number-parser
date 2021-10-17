@@ -29,4 +29,24 @@ public class NumberParserTest {
         Assert.assertEquals("+1312233244",
                 NUMBER_PARSER.parse("+1312233244", "+447866866886"));
     }
+
+    @Test
+    public void testParseUnknownCountry() {
+        Assert.assertNull(NUMBER_PARSER.parse("1312233244", "+467866866886"));
+    }
+
+    @Test
+    public void testParseNullDialledNumber() {
+        Assert.assertNull(NUMBER_PARSER.parse(null, "+467866866886"));
+    }
+
+    @Test
+    public void testParseNullUserNumber() {
+        Assert.assertNull(NUMBER_PARSER.parse("1312233244", null));
+    }
+
+    @Test
+    public void testParseNull() {
+        Assert.assertNull(NUMBER_PARSER.parse(null, null));
+    }
 }
